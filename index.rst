@@ -17,8 +17,11 @@ NOTE:  An earlier version of this technote had a timebase error which resulted i
 Methodology
 ================
 
-The soak program runs by slewing a random amount, and then tracking for approximately 30 seconds, then repeating the cycle.  The tracking data was analyzed by querying the summit EFD to determine the times of the beginning of the slew and the times when the axes were in position.  The beginning of the slew was determined by looking for abrupt changes in the lsst.sal.MTMount.command_trackTarget.azimuth and lsst.sal.MTMount.command_trackTarget.elevation variables.  The in position time was determined to be the latest of the lsst.sal.MTMount.logevent_elevationInPosition.inPosition and lsst.sal.MTMount.logevent_azimuthInPosition.inPosition timestamps.  The notebook that did this analysis and made the plots in this technote is available at:
-https://github.com/craiglagegit/Notebook_Keeper/blob/main/summit_notebooks/MTMount_Characterization_3_27Jan23.ipynb
+The soak program runs by slewing a random amount, and then tracking for approximately 30 seconds, then repeating the cycle.  The tracking data was analyzed by querying the summit EFD to determine the times of the beginning of the slew and the times when the axes were in position.  The beginning of the slew was determined by looking for abrupt changes in the lsst.sal.MTMount.command_trackTarget.azimuth and lsst.sal.MTMount.command_trackTarget.elevation variables.  The in position time was determined to be the latest of the lsst.sal.MTMount.logevent_elevationInPosition.inPosition and lsst.sal.MTMount.logevent_azimuthInPosition.inPosition timestamps.  The notebook that did this analysis and made the plots in this technote is available in:
+
+https://github.com/lsst-sitcom/notebooks_vandv
+at:
+notebooks/tel_and_site/subsys_req_ver/tma/SITCOMTN-057_Slew_Jitter_15Nov23.ipynb
 
 Figure 1 shows a portion of the soak test, showing the azimuth slew and track data. The dotted black lines indicate the beginning of the slew.  The dotted blue lines are the inPosition time stamps.
 
