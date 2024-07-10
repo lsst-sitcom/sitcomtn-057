@@ -4,10 +4,6 @@ Preliminary study of TMA performance based on soak testing from 26-Jan-2023
 
 .. abstract::
 
-   During one of the soak test during the night of 26-Jan-2023, the soak program ran for almost 3 hours.  During this time, there were about 220 tracking intervals.  This note details the analysis that was done on this run, including mount jitter and slew and settle times.
-
-
-
 .. Metadata such as the title, authors, and description are set in metadata.yaml
 
 .. TODO: Delete the note below before merging new content to the main branch.
