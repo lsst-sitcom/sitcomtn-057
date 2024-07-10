@@ -2,7 +2,6 @@
 Preliminary study of TMA performance based on soak testing from 26-Jan-2023
 ###########################################################################
 
-.. abstract::
 
 .. Metadata such as the title, authors, and description are set in metadata.yaml
 
