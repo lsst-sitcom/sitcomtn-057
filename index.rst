@@ -1,6 +1,12 @@
-:tocdepth: 1
+###########################################################################
+Preliminary study of TMA performance based on soak testing from 26-Jan-2023
+###########################################################################
 
-.. sectnum::
+.. abstract::
+
+   During one of the soak test during the night of 26-Jan-2023, the soak program ran for almost 3 hours.  During this time, there were about 220 tracking intervals.  This note details the analysis that was done on this run, including mount jitter and slew and settle times.
+
+
 
 .. Metadata such as the title, authors, and description are set in metadata.yaml
 
@@ -57,4 +63,3 @@ Summary
 This technote shows a summary of the TMA performance during a 3 hour soak test during the night of 26-Jan-23.  The data looks quite good, and only one minor problem was identified.
 
 #. There are occasional anomalous values in the encoder stream.  These impact the calculated jitter values.  If these cannot be eliminated, perhaps they can be filtered out, either from the encoder stream or from this analysis.
-
