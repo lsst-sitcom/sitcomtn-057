@@ -37,7 +37,7 @@ Figure 3.  Histograms of the mount jitter data for the 200+ tracking periods dur
 Slew and Settle times
 ==========================
 
-By taking the difference from the *inPostion* timestamp and the *Start_slew* timestamp, we can characterize the slew and settle times.  This is shown in Figure 4.  Slews of less than 3.5 degrees have slew and settle times less than 4 seconds.
+By taking the difference from the *inPostion* timestamp and the *start_slew* timestamp, we can characterize the slew and settle times.  This is shown in Figure 4.  Slews of less than 3.5 degrees have slew and settle times less than 4 seconds.
 
 .. image:: ./_static/Slew_Settle_Times_Corrected.png
 
